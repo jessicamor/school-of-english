@@ -72,8 +72,9 @@ footer {
 
 
 .navbar {
-    background-color:#ff793f;
-    z-index: 9999; /* bring the element front*/
+    background-color: #ff793f;
+    z-index: 9999;
+    /* bring the element front*/
 }
 
 
@@ -232,13 +233,11 @@ footer {
     color: #f5f5f5;
     text-align: center;
     margin-bottom: 1.5em;
-    margin-right: 0.5em;
-    margin-left: 1.5em;
     /* start: to make responsive square*/
     position: relative;
-    width: 70%;
-
+    width: 90%;
 }
+
 
 .icon-subject-item:after {
     content: "";
@@ -247,11 +246,11 @@ footer {
 
 }
 
-.subject-content {
-    margin-top: 0.5em;
+.content {
     position: absolute;
-    width: 85%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
+    /* end of responsive square code */
     /* start: to make horizontally and vertically center*/
     top: 50%;
     left: 50%;
@@ -259,37 +258,36 @@ footer {
     /* end of make horizontally and vertically center code*/
 }
 
-/* end of responsive square code */
 
-.green {
+.bg-green {
     background-color: #33d9b2;
 }
 
-.yellow {
+.bg-yellow {
     background-color: #ffb142;
 }
 
-.orange {
+.bg-orange {
     background-color: #ff793f;
 }
 
-.blue {
+.bg-blue {
     background-color: #34ace0;
 }
 
-.purple {
+.bg-purple {
     background-color: #706fd3;
 }
 
-.fuschia {
+.bg-fuschia {
     background-color: #B33771;
 }
 
-.red {
+.bg-red {
     background-color: #FD7272;
 }
 
-.dark-purple {
+.bg-dark-purple {
     background-color: #474787;
 }
 
@@ -444,7 +442,7 @@ footer {
 .phone-direct:hover,
 .phone-direct:active {
     color: #ff793f;
-   
+
 }
 
 .phone-copy {
@@ -466,6 +464,3 @@ footer {
     opacity: 0;
     animation-duration: 1s;
 }
-
-
-

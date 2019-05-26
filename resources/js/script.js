@@ -138,7 +138,7 @@ $('a[href*="#"]')
 })
 
 /* bugs
-1. when click navbar brand on navbar menu, navbar wont hide
+1. when click navbar brand on navbar menu, navbar wont hide --check
 2. when click section from navbar, the navbar overlaps title
 2. when clik section from navbar, sometimes it goes to the middle of the section instead of the beginning of the section
 
