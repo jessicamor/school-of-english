@@ -1,0 +1,29 @@
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .icon-subject h3,
+    .subject-content .sejarah-style {
+        font-size: 90%;
+    }
+    .icon-subject-item i {
+    font-size: 120%;
+}
+    
+    
+}
+
+@media only screen and (min-width: 383px) and (max-width: 575px) {
+    .icon-subject-item {
+        height: 40%;
+        width: 40%;
+}
+    
+     .icon-subject h3,
+    .subject-content .sejarah-style {
+        font-size: 90%;
+    }
+    
+    .icon-subject-item i {
+    font-size: 200%;
+}
+    
+    }
