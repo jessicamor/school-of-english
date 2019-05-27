@@ -1,26 +1,30 @@
-/*
 
-@media only screen and (min-width: 576px) and (max-width: 991px) {
-    .icon-subject h3,
-    .subject-content .sejarah-style {
+
+
+/*smallest screen 320-400px*/
+
+@media only screen and (max-width: 400px) {
+
+    
+     .icon-subject-item h3,
+    .subject-content,
+    .sejarah-style {
         font-size: 90%;
     }
+    
     .icon-subject-item i {
-    font-size: 120%;
+    font-size: 180%;
 }
     
-    
-}
+    }
 
-@media only screen and (min-width: 383px) and (max-width: 575px) {
-    .icon-subject-item {
-        height: 40%;
-        width: 40%;
-}
+
+@media only screen and (min-width: 401px) and (max-width: 441px) {
+
     
-     .icon-subject h3,
-    .subject-content .sejarah-style {
-        font-size: 90%;
+     .icon-subject-item h3,
+    .content .sejarah-style {
+        font-size: 100%;
     }
     
     .icon-subject-item i {
@@ -28,4 +32,3 @@
 }
     
     }
-*/

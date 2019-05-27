@@ -218,15 +218,6 @@ footer {
 }
 
 
-
-.icon-subject {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-}
-
-
-
 .icon-subject-item {
     border-radius: 5px;
     box-shadow: 0 2px 2px #a2a2a2;
@@ -235,7 +226,7 @@ footer {
     margin-bottom: 1.5em;
     /* start: to make responsive square*/
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -247,6 +238,7 @@ footer {
 }
 
 .content {
+    margin-top: 5px;
     position: absolute;
     width: 90%;
     height: 90%;
@@ -298,7 +290,7 @@ footer {
 
 }
 
-.subject-content .sejarah-style {
+.content .sejarah-style {
     font-size: 115%;
 }
 
