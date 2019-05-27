@@ -177,7 +177,7 @@ footer {
 /*HEADER*/
 
 .section-main {
-    background-image: linear-gradient(rgb(28, 27, 27), rgba(85, 85, 85, 0.41)), url(../img/hero-im-fixed.jpg);
+    background-image: linear-gradient(rgb(42, 42, 42), rgba(49, 47, 47, 0.41)), url(../img/hero-im-fixed.jpg);
     /*Photo by Matt Ragland on Unsplash*/
     background-size: cover;
     background-attachment: fixed;
