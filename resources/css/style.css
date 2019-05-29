@@ -63,7 +63,7 @@ h3 {
 section,
 footer {
     padding-bottom: 5%;
-    padding-top: 8%;
+    padding-top: 60px; /*the minimum padding so the navbar wont overlap title*/
 }
 
 
@@ -105,6 +105,7 @@ footer {
     border-color: transparent;
 }
 
+/* Show navbar animation when scrolling down */
 .sticky {
     position: fixed;
     top: 0;
@@ -112,7 +113,7 @@ footer {
     width: 100%;
 }
 
-/* Show navbar animation when scrolling down */
+
 
 
 
@@ -208,7 +209,11 @@ footer {
 }
 */
 
-/* SECTION ABOUT */
+/* SECTION TOEFL */
+
+.section-toefl h2 {
+    font-size: 180%;
+}
 
 
 /* SECTION SUBJECT */
@@ -409,7 +414,6 @@ footer {
     list-style: none;
 }
 
-.kontak-detail ul {}
 
 .kontak-detail li {
     font-weight: 400;
