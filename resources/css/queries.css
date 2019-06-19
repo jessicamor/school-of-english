@@ -9,11 +9,11 @@
      .icon-subject-item h3,
     .subject-content,
     .sejarah-style {
-        font-size: 90%;
+        font-size: 78%;
     }
     
     .icon-subject-item i {
-    font-size: 180%;
+    font-size: 150%;
 }
     
     }
@@ -22,12 +22,12 @@
 @media only screen and (min-width: 401px) and (max-width: 441px) {
 
     .icon-subject-item h3 {
-     font-size: 100%; 
+     font-size: 80%; 
 }
     
     
     .icon-subject-item i {
-    font-size: 200%;
+    font-size: 180%;
 }
     
     }
