@@ -35,7 +35,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -53,7 +54,7 @@ h3 {
 }
 
 
-.section-subject h3,
+
 .section-pricelist h3 {
     text-align: center;
     font-size: 140%;
@@ -79,7 +80,7 @@ footer {
 
 
 .navbar-dark .navbar-brand:link {
-    color: #d1ccc0;
+    color: #1f1e1a;
     transition: color 0.2s;
 }
 
@@ -222,6 +223,59 @@ footer {
     background-color: #efefef;
 }
 
+.section-subject h3 {
+    text-align: center;
+}
+
+.section-subject h4 {
+    font-size: 140%;
+}
+
+.eng-item {
+    color: #f5f5f5; 
+    text-align: center;
+    margin-bottom: 2em;
+  
+/*
+      position: relative;
+    width: 100%;
+*/
+}
+
+/*
+.eng-item:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+
+}
+*/
+
+.eng-item i {
+    font-size: 250%;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    color: #efefef;
+    background-color: #40407a;
+    padding: 20px;
+    border-radius: 50%;
+
+}
+/*
+
+.eng-content {
+    margin-top: 5px;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+*/
+
+
 
 .icon-subject-item {
     border-radius: 5px;
@@ -256,6 +310,7 @@ footer {
 }
 
 
+
 .bg-green {
     background-color: #33d9b2;
 }
@@ -284,9 +339,7 @@ footer {
     background-color: #FD7272;
 }
 
-.bg-dark-purple {
-    background-color: #474787;
-}
+
 
 .icon-subject-item i {
     font-size: 250%;
@@ -308,6 +361,33 @@ footer {
     font-size: 100%;
 }
 
+.eng-link:link,
+.eng-link:visited {
+    color: #227093;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 400;
+}
+
+.eng-link:hover,
+.eng-link:active {
+    color: #555;
+
+}
+
+
+.see-details {
+    margin-top: none;
+    font-size: 65%;
+}
+
+/*SECTION ENGLISH PROGRAM*/
+
+.section-eng-program {
+    background-color: #fcfcfc;
+}
+
+
 /*SECTION TOEFL*/
 
 .toefl-point {
@@ -315,9 +395,8 @@ footer {
     margin-left: 1em;
 }
 
-.toefl-point i {
+.icon-list i {
     color: #ff793f;
-    margin-right: 8px;
     font-size: 80%;
 }
 

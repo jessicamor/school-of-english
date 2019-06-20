@@ -6,7 +6,7 @@
 @media only screen and (max-width: 400px) {
 
     
-     .icon-subject-item h3,
+     .icon-subject-item h4,
     .subject-content,
     .sejarah-style {
         font-size: 78%;
@@ -21,7 +21,7 @@
 
 @media only screen and (min-width: 401px) and (max-width: 441px) {
 
-    .icon-subject-item h3 {
+    .icon-subject-item h4 {
      font-size: 80%; 
 }
     
