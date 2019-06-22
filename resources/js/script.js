@@ -9,7 +9,7 @@ $(document).ready(function () {
         } else {
             nav.addClass('fadeOutUp');
             setTimeout(function () {
-                nav.removeClass('sticky animated fadeInDown fadeOutUp');
+                nav.removeClass('animated fadeInDown fadeOutUp');
             }, 300);
         }
     }, {
