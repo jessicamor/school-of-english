@@ -93,6 +93,7 @@ footer {
 .navbar-dark .navbar-nav .nav-link:visited {
     color: #f5f5f5;
     transition: color 0.2s;
+    font-size: 100%;
 
 }
 

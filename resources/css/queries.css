@@ -1,38 +1,33 @@
-
-
-
 /*smallest screen 320-400px*/
 
-@media only screen and (max-width: 400px) {
-
-    
-     .icon-subject-item h4,
-    .subject-content,
-    .sejarah-style {
-        font-size: 78%;
-    }
-    
-    .icon-subject-item i {
-    font-size: 150%;
+@media only screen and (min-width: 992px) and (max-width: 1076px) {
+.navbar-dark .navbar-nav .nav-link:link,
+.navbar-dark .navbar-nav .nav-link:visited  { font-size: 88%; } 
 }
-    
-    }
-
-
-@media only screen and (min-width: 401px) and (max-width: 441px) {
-
-    .icon-subject-item h4 {
-     font-size: 80%; 
-}
-    
-    
-    .icon-subject-item i {
-    font-size: 180%;
-}
-    
-    }
 
 @media screen and (max-width: 768px) {
     body { padding-top: 0px; }
 }
 
+@media only screen and (min-width: 401px) and (max-width: 441px) {
+
+    .icon-subject-item h4 { font-size: 80%; }
+
+
+    .icon-subject-item i { font-size: 180%; }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+
+    .icon-subject-item h4,
+    .subject-content,
+    .sejarah-style {
+        font-size: 78%;
+    }
+
+    .icon-subject-item i { font-size: 150%; }
+
+}

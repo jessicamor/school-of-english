@@ -110,6 +110,12 @@ $('a[href*="#"]')
         offset: '50%'
     });
     
+       $('.js--wp-5').waypoint(function (direction) {
+        $('.js--wp-5').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });
+    
      $('.js--wp-5').waypoint(function (direction) {
         $('.js--wp-5').addClass('animated pulse');
     }, {
@@ -133,9 +139,21 @@ $('a[href*="#"]')
     }, {
         offset: '50%'
     });
+    
+     $('.js--wp-9').waypoint(function (direction) {
+        $('.js--wp-9').addClass('animated pulse');
+    }, {
+        offset: '50%'
+    });
+    
+     $('.js--wp-10').waypoint(function (direction) {
+        $('.js--wp-10').addClass('animated pulse');
+    }, {
+        offset: '50%'
+    });
    
-    $('.js--wp-9').waypoint(function (direction) {
-        $('.js--wp-9').addClass('animated rollIn');
+    $('.js--wp-11').waypoint(function (direction) {
+        $('.js--wp-11').addClass('animated rollIn');
     }, {
         offset: '50%'
     });
