@@ -1,6 +1,15 @@
+let btnDataWhatsapp = new Map([
+    ['contact', 'Dear Ibu Agatha, saya mohon informasi untuk paket ...'],
+    ['paket-1-tahun', 'Dear Ibu Agatha, saya berminat dengan paket 1 tahun dengan harga Rp. 6,2jt. Harap bantu didaftarkan.'],
+    ['paket-1-bulan', 'Dear Ibu Agatha, saya berminat dengan paket 1 bulan dengan harga Rp. 750rb. Harap bantu didaftarkan.'],
+    ['english-program-sma', 'Dear Ibu Agatha, saya berminat dengan paket English Program SMA dengan harga Rp. 900rb. Harap bantu didaftarkan.'],
+    ['english-program-smp', 'Dear Ibu Agatha, saya berminat dengan paket English Program SMP dengan harga Rp. 600rb. Harap bantu didaftarkan.'],
+    ['english-toelf-class', 'Dear Ibu Agatha, saya berminat dengan paket TOEFL Preparation Class dengan harga Rp. 1.4jt. Harap bantu didaftarkan.'],
+  ]);
+
 $(document).ready(function () {
     
-// Sticky nav
+    // Sticky nav
     
     $('.js--section-about').waypoint(function (direction) {
         var nav = $('nav');
@@ -19,15 +28,15 @@ $(document).ready(function () {
     
 //    Hide navbar after clicking link
     
-   $('.navbar-nav>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
+    $('.navbar-nav>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
     
     // Hide navbar after clicking brand
     
     $('.navbar-brand').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
+        $('.navbar-collapse').collapse('hide');
+    });
     
     
 //    Scrolling from hero buttons
@@ -47,11 +56,11 @@ $(document).ready(function () {
     
     // Scroll links smoothly
     
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
     // On-page links
     if (
       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
@@ -158,13 +167,18 @@ $('a[href*="#"]')
         offset: '50%'
     });
     
-    
+    $('.phone-direct').click(function(event){
+        event.preventDefault();
+        var btn = $(this);
+        let key = btn.attr('data-whatsapp');
+        var finalURI = event.target.href + '?text=' + encodeURI(btnDataWhatsapp.get(key));
+        gtag('event', 'click', {
+            'event_category': 'button',
+            'event_label': key,
+            'transport_type': 'beacon',
+            'event_callback': function(){
+              window.open(finalURI, '_blank');
+            }
+          });
+    });
 })
-
-/* bugs
-1. when click navbar brand on navbar menu, navbar wont hide --check
-2. when click section from navbar, the navbar overlaps title --check. 
-2. when click section from navbar, sometimes it goes to the middle of the section instead of the beginning of the section
-
-*/
-   
