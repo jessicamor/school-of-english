@@ -1,10 +1,11 @@
 let btnDataWhatsapp = new Map([
     ['contact', 'Dear Ibu Agatha, saya mohon informasi untuk paket ...'],
-    ['paket-1-tahun', 'Dear Ibu Agatha, saya berminat dengan paket 1 tahun dengan harga Rp. 6,2jt. Harap bantu didaftarkan.'],
-    ['paket-1-bulan', 'Dear Ibu Agatha, saya berminat dengan paket 1 bulan dengan harga Rp. 750rb. Harap bantu didaftarkan.'],
-    ['english-program-sma', 'Dear Ibu Agatha, saya berminat dengan paket English Program SMA dengan harga Rp. 900rb. Harap bantu didaftarkan.'],
-    ['english-program-smp', 'Dear Ibu Agatha, saya berminat dengan paket English Program SMP dengan harga Rp. 600rb. Harap bantu didaftarkan.'],
-    ['english-toelf-class', 'Dear Ibu Agatha, saya berminat dengan paket TOEFL Preparation Class dengan harga Rp. 1.4jt. Harap bantu didaftarkan.'],
+    ['paket-1-tahun', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket 1 tahun dengan harga Rp. 6,2jt. Mohon informasi lebih lanjut.'],
+    ['paket-1-bulan', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket 1 bulan dengan harga Rp. 750rb. Mohon informasi lebih lanjut.'],
+    ['english-program-karyawan', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket English Program Karyawan dengan harga Rp. 1.2jt. Mohon informasi lebih lanjut.'],
+    ['english-program-sma', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket English Program SMA dengan harga Rp. 900rb. Mohon informasi lebih lanjut.'],
+    ['english-program-smp', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket English Program SMP dengan harga Rp. 600rb. Mohon informasi lebih lanjut.'],
+    ['english-toelf-class', 'https://bimbelses.com \\n Dear Ibu Agatha, saya berminat dengan paket TOEFL Preparation Class dengan harga Rp. 1.4jt. Mohon informasi lebih lanjut.'],
   ]);
 
 $(document).ready(function () {
