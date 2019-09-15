@@ -8,6 +8,8 @@ let btnDataWhatsapp = new Map([
     ['english-toelf-class', 'https://bimbelses.com \nDear Ibu Agatha, saya berminat dengan paket TOEFL Preparation Class dengan harga Rp. 1.4jt. Mohon informasi lebih lanjut.'],
   ]);
 
+let linkWhatsapp = 'https://wa.me/+628817951136';
+
 $(document).ready(function () {
     
     // Sticky nav
@@ -172,7 +174,7 @@ $(document).ready(function () {
         event.preventDefault();
         var btn = $(this);
         let key = btn.attr('data-whatsapp');
-        var finalURI = event.target.href + '?text=' + encodeURI(btnDataWhatsapp.get(key));
+        var finalURI = linkWhatsapp + '?text=' + encodeURI(btnDataWhatsapp.get(key));
         gtag('event', 'click', {
             'event_category': 'button',
             'event_label': key,
