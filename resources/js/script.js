@@ -8,7 +8,7 @@ let btnDataWhatsapp = new Map([
     ['english-toelf-class', 'https://bimbelses.com \nDear Ibu Agatha, saya berminat dengan paket TOEFL Preparation Class dengan harga Rp. 1.4jt. Mohon informasi lebih lanjut.'],
   ]);
 
-let linkWhatsapp = 'https://wa.me/+628817951136';
+let linkWhatsapp = 'https://wa.me/+6288226093231';
 
 $(document).ready(function () {
     
